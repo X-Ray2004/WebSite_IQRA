@@ -1,0 +1,80 @@
+.main-section{
+    border-collapse: collapse;
+    margin: 25px 0;
+    font-size: 0.9em;
+    min-width: 400px;
+    width:100% ;
+    border-radius: 5px 5px 0 0;
+    overflow: hidden;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+
+}
+.main-section{
+    display: flex;
+    margin: 10px 10px;
+    
+}
+.section-body{
+    width: 100%;
+}
+.book{
+    display: flex;
+
+}
+.cover{
+    width: 35.3%;
+}
+.cover img{
+    width: 300px;
+    height: 450;
+}
+.ditails {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: space-between;
+    background-color: var(--bg-dark);
+}
+.ditails .describtion{
+    width: 100%;
+
+}
+.ditails .describtion .book_name{
+    background-color: var(--bg-dark);
+}  
+.bowrow{
+    display: flex;
+    justify-content: center;
+}
+.side{
+  width: 25%;
+  background-color: var(--bg-dark);
+  text-align: center;
+  color:var(--bg-white);
+}
+.borrow_btn{
+    background-color: var(--main-color);
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 10px 2px;
+    cursor: pointer;
+    border-radius: 10px;
+    height: 80%;
+}
+textarea {
+    width: 100%;
+    background-color: var(--bg-white);
+    resize: none;
+    margin-top: 2rem;
+    padding-top: .3rem;
+  }
+  .add{
+    width: 100%;
+    
+  }
+  

@@ -1,0 +1,113 @@
+* {
+    scroll-behavior: smooth;
+  }
+  
+  body {
+    background-color: #ffbf9b;
+  }
+  
+  .container1 {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding: 10px;
+    background-color: #fff4e0;
+  }
+  
+  .heading {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    background-color: #b46060;
+    color: #ffffff;
+    padding: 10px;
+    margin: 10px;
+    line-height: 1.4;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  }
+  
+  .about {
+    width: 100%;
+    color: #b46060;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  }
+  
+  .about-content {
+    padding: 10px;
+    font: bold 30px Arial, Helvetica, sans-serif;
+  }
+  
+  .about-content h2 {
+    margin-bottom: 10px;
+  }
+  
+  .dev1 { 
+    text-align: center;
+    margin-bottom: 20px;
+    display: flex;
+    font: bold 25px Arial;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .dev1 img { 
+    border-radius: 50%; 
+    height: 300px; 
+    width: 48%; 
+    margin: 10px; 
+    margin-bottom: 10px; 
+    background-color: #ffbf9b;
+    padding: 10px;
+  }
+  
+  .dev1 h4 { 
+    margin-bottom: 5px;    
+  }
+  
+  a {
+    text-decoration: dotted; 
+    color: dodgerblue;
+    font-size: 20px;
+  }
+  
+  a:active { 
+    text-decoration: dotted; 
+    color: #ffbf9b;
+  }
+  
+  a:hover {
+    text-decoration: dotted;
+    color: #4d4d4d;
+  }
+  
+  #amany {
+    color: #b46060;
+    font-size: 232%;
+  }
+  
+  .Under_supervision {  
+    text-align: center; 
+    margin-top: 20px; 
+    font-size: 150%;
+    background-color: #ffffff;
+    padding: 30px;
+    border-radius: 20%;
+    border: 22px solid #b46060;
+    border-style: ridge;
+    margin: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  }
+  
+  .Under_supervision img { 
+    border-radius: 50%; 
+    width: 400px; 
+    height: 400px; 
+    margin-bottom: 10px; 
+    background-color: #ffbf9b;
+    padding: 10px;
+  }
+  
+  .Under_supervision h2 {
+    margin-bottom: 10px;
+  }
+  

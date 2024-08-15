@@ -1,0 +1,42 @@
+.books {
+    display: block;
+    background-color: #fff4e0;
+}
+    
+.book {
+    text-align: center;
+    margin: 50px 10px;
+}
+.returned-books,
+.borrowed-books{
+    display: grid;
+    grid-template-columns: repeat(4, auto);
+    gap: 40px;
+    justify-content: center;
+}
+.book img {
+    width: 200px; 
+    height: 300px;
+    border-radius: 20px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+    transition: 0.3s ease;
+}
+.details {
+    background-color:#ffbf9b ;
+    padding: 10px;
+    border-radius: 20px;
+    
+}
+.book h3{
+    background-color: #b46060;
+    padding: 10px;
+    border-radius: 20px;
+    color: #ececec;
+}
+.book button{
+    padding: 20px;
+    border-radius: 40px;
+    color: #ececec;
+    transition: 0.5s ease;
+    margin-top: 20px;
+}
